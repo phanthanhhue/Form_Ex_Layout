@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+.wrapper {
+    background-color: #d9eaf0;
+    height: 100%;
+    padding: 2rem;
+}
+.form-field {
+    margin-top: 10%;
+    width: 60%;
+    margin: auto;
+    background-color: white;   
+    box-shadow: 0 3px 4px black;
+    border-top: 1.5rem solid #b6d4c5;
+}
+
+.form-field .form__title {
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    border-bottom: dotted;
+    border-color: gray;
+}
+
+.btn-green {
+    background-color: #41a775;
+    color: white;
+    border: 2px solid #41a775;
+    border-radius: 3px;
+    padding: 0.3rem 0.7rem;
+    font-weight: 500;
+}
+
+.btn-green:hover {
+    border: 2px solid #41a775;
+    background-color: transparent;
+    color:#41a775;
+    cursor: pointer;
+}
+
+.btn-green:hover .fa-caret-down {
+    color: #41a775;
+}
+
+.btn-group {
+    margin: 0.5rem;
+}
+
+.btn-group span .fa-caret-down {
+    color: white;
+    background-color: transparent;
+    padding-left: 0.4rem;
+}
+
+.dynamic-search h1 {
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+}
+.dynamic-search h1 span {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.dynamic-search h1 span:hover {
+    cursor: pointer;
+}
+
+.search__form {
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    background-color: #f5fffb;
+    margin: 0.5rem;
+    padding: 1rem 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 6rem;
+}
+
+.search__form label {
+    font-size: 0.6rem;
+    margin: 0.5rem;
+}
+
+.search__form select {
+    width: 6rem;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    font-size: 0.7rem;
+    height: 1.5rem;
+}
+
+.search__form select:hover {
+    cursor: pointer;
+}
+
+.search__form input {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    font-size: 0.7rem;
+    width: 13rem;
+    height: 1.4rem;
+    padding-left: 0.4rem;
+    grid-column: 3/span 2;
+}
+
+.search__form .reset {
+    border: none;
+    background-color: transparent;
+    transform: translate(-1rem, 0);
+    font-size: 0.8rem;
+}
+.search__form .reset:hover {
+    cursor: pointer;
+}
+
+.search__form .reset-2 {
+    transform: translate(-3rem, 0);
+}
+
+.action {
+    grid-column: 1/span2;
+    padding: 0.5rem;
+}
+
+.action button{ 
+    background-color: #41a775;
+    border: 2px solid #41a775;
+    margin-top: 1rem;    
+}
+
+.details__form {
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0.5rem;
+}
+
+.details__form label {
+    font-size: 0.6rem;
+    font-weight: 600;
+    transform: translate(0,1rem);
+}
+
+.details__form input {
+    grid-column: 2/span 3;
+    width: 60%;
+    margin: 0.2rem;
+    height: 1.2rem;
+}
+
+.paginate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 0.5rem;
+}
+
+.paginate p a, .paginate p {
+    text-decoration: none;
+    color: gray;
+    justify-items: auto
+}
+
+.paginate p a:hover {
+    color:  #41a775;
+}
+
+.btn-gray {
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.btn-gray:hover {
+    color:  white;
+    background-color: #41a775;
+    border: 2px solid #41a775;
+    cursor: pointer;
+}
+
+.paginate .left {
+    transform: translate(4rem, -0.2rem);
+}
+
+.paginate .right {
+    transform: translate(-4rem, -0.2rem);
+}
+
+.fa-step-forward, .fa-step-backward {
+    padding: 0 0.4rem;
+}

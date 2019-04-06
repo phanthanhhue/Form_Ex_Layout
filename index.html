@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BÀI TẬP FORM</title>
+    <!-- CDN FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" class="form-field">
+            <h1 class="form__title">Dynamic search to Application From</h1>
+            <button class="btn-green btn-group">Group Buttons <span><i class="fa fa-caret-down"></i></span></button>
+            <div class="dynamic-search">
+                <h1><span><i class="fa fa-minus-square-o"></i></span> Dynamic Search</h1>
+                <div class="search__form">
+                    <label>Country</label>
+                    <select id="country-contain">
+                            <option value="country">Contain</option>
+                    </select>
+                    <input type="text" id="country" value="UK">
+                    <button class="reset reset-1" type="reset"><i class="fa fa-times"></i></button>
+                    <label>Company Name</label>
+                    <select id="company-contain">
+                            <option value="company">Contain</option>
+                    </select>
+                    <input type="text" id="company" value="Maria Andreson">
+                    <button class="reset reset-2" type="reset"><i class="fa fa-times"></i></button>
+                    <div class="action">
+                        <button class="btn-green" type="submit">Add Field</button>
+                        <button class="btn-green" type="reset">Clear</button>
+                        <button class="btn-green" type="submit">Apply</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="details__form">
+                <label>ID</label>
+                <input class="id_person" type="text" value="1">
+                <label>Company Name</label>
+                <input type="text" value="Exotic Liquid">
+                <label>Contact Name</label>
+                <input type="text" value="Charlotte Cooper">
+                <label>Contact Title</label>
+                <input type="text" value="Purchase Manager">
+                <label>Country</label>
+                <input type="text" value="UK">
+                <label>Postal Code</label>
+                <input type="text" value="EC1 4SD">
+                <label>Address</label>
+                <input type="text" value="49 GilBert">
+                <label>Phone</label>
+                <input type="number" value="01634643124">
+            </div>
+            <div class="paginate">
+                <span class="left"><i class="fa fa-step-backward btn-gray"></i> <i class="fa fa-caret-left btn-gray"></i></span>
+                <p><a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a></p>
+                <span class="right"><i class="fa fa-caret-right btn-gray"></i> <i class="fa fa-step-forward btn-gray"></i></span>
+                <p>[ 1 to 21 ]</p>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
